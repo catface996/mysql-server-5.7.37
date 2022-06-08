@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\os\;CMake Files\cmake\build_configurations\;CMake Files\include\;CMake Files\sql\;CMake Files\sql\share\;CMake Files\zlib\;CMake Files\extra\;CMake Files\extra\libedit\;CMake Files\extra\libedit\libedit-20210910-3.1\;CMake Files\extra\libedit\libedit-20210910-3.1\src\;CMake Files\extra\libevent\;CMake Files\extra\libevent\libevent-2.1.11-stable\;CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\;CMake Files\extra\protobuf\;CMake Files\dbug\;CMake Files\strings\;CMake Files\vio\;CMake Files\regex\;CMake Files\mysys\;CMake Files\mysys_ssl\;CMake Files\libmysql\;CMake Files\libmysql\authentication_ldap\;CMake Files\libbinlogevents\;CMake Files\libbinlogevents\src\;CMake Files\libbinlogstandalone\;CMake Files\libbinlogstandalone\src\;CMake Files\storage\;CMake Files\storage\archive\;CMake Files\storage\blackhole\;CMake Files\storage\csv\;CMake Files\storage\example\;CMake Files\storage\federated\;CMake Files\storage\heap\;CMake Files\storage\innobase\;CMake Files\storage\myisam\;CMake Files\storage\myisammrg\;CMake Files\storage\partition\;CMake Files\storage\perfschema\;CMake Files\storage\perfschema\unittest\;CMake Files\plugin\;CMake Files\plugin\audit_null\;CMake Files\plugin\auth\;CMake Files\plugin\connection_control\;CMake Files\plugin\daemon_example\;CMake Files\plugin\fulltext\;CMake Files\plugin\innodb_memcached\;CMake Files\plugin\keyring\;CMake Files\plugin\password_validation\;CMake Files\plugin\replication_observers_example\;CMake Files\plugin\rewrite_example\;CMake Files\plugin\rewriter\;CMake Files\plugin\semisync\;CMake Files\plugin\test_service_sql_api\;CMake Files\plugin\test_services\;CMake Files\plugin\udf_services\;CMake Files\plugin\version_token\;CMake Files\rapid\;CMake Files\rapid\plugin\;CMake Files\rapid\plugin\group_replication\;CMake Files\rapid\plugin\keyring_udf\;CMake Files\rapid\plugin\x\;CMake Files\rapid\plugin\x\src\;CMake Files\rapid\unittest\;CMake Files\rapid\unittest\gunit\;CMake Files\rapid\unittest\gunit\group_replication\;CMake Files\rapid\unittest\gunit\xplugin\;CMake Files\unittest\;CMake Files\unittest\gunit\;CMake Files\unittest\examples\;CMake Files\unittest\mytap\;CMake Files\unittest\mytap\t\;CMake Files\client\;CMake Files\client\base\;CMake Files\client\dump\;CMake Files\libservices\;CMake Files\man\;CMake Files\testclients\;CMake Files\libmysqld\;CMake Files\libmysqld\examples\;CMake Files\scripts\;CMake Files\mysql-test\;CMake Files\mysql-test\lib\;CMake Files\mysql-test\lib\My\;CMake Files\mysql-test\lib\My\SafeProcess\;CMake Files\support-files\;CMake Files\packaging\;CMake Files\packaging\rpm-common\;CMake Files\packaging\rpm-oel\;CMake Files\packaging\rpm-fedora\;CMake Files\packaging\rpm-sles\;CMake Files\packaging\rpm-docker\;CMake Files\packaging\deb-in\;CMake Files\packaging\WiX\;CMake Files\packaging\solaris\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/archive_output_directory/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/rapidjson/include"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/include"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/export"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/archive_output_directory/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/rapidjson/include"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/include"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/export"/>
+					<Add directory="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/adler32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/compress.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/crc32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/crc32.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/deflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/deflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/gzclose.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/gzguts.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/gzlib.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/gzread.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/gzwrite.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/infback.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/inffast.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/inffast.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/inffixed.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/inflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/inflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/inftrees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/inftrees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/trees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/trees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/uncompr.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/zconf.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/zlib.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/zutil.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/zutil.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/VERSION">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/config.h.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/configure.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/find_libevent_version.c">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/info_macros.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/abi_check.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/bison.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/boost.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/character_sets.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/cmake_parse_arguments.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/compile_flags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/compiler_bugs.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/configurable_file_content.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/cpack_source_ignore_files.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/cpu_info.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/curl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/dtrace.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/floating_point.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/info_macros.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/install_layout.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/install_macros.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/ldap.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/libevent.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/libutils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/lz4.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/maintainer.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/make_dist.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/merge_archives.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/mysql_add_executable.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/mysql_version.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/package_name.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/plugin.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/protobuf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/readline.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/rpc.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/sasl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/save_archive_location.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/ssl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/stack_direction.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/tags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/zlib.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/os/Darwin.cmake">
+			<Option virtualFolder="CMake Files\cmake\os\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/build_configurations/compiler_options.cmake">
+			<Option virtualFolder="CMake Files\cmake\build_configurations\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/cmake/build_configurations/feature_set.cmake">
+			<Option virtualFolder="CMake Files\cmake\build_configurations\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include/mysql_version.h.in">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include/probes_mysql.d.base">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sql\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/sql_builtin.cc.in">
+			<Option virtualFolder="CMake Files\sql\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/share/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sql\share\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libedit/libedit-20210910-3.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\libedit\libedit-20210910-3.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libedit/libedit-20210910-3.1/src/makelist.in">
+			<Option virtualFolder="CMake Files\extra\libedit\libedit-20210910-3.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/evconfig-private.h.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/event-config.h.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/cmake/AddCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/cmake/CheckConstExists.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/cmake/CheckFileOffsetBits.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/cmake/CheckFunctionExistsEx.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/cmake/CheckFunctionKeywords.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/cmake/CheckPrototypeDefinition.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libevent/libevent-2.1.11-stable/cmake/VersionViaGit.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\protobuf\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/dbug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dbug\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/strings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\strings\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/vio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vio\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/regex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\regex\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/mysys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysys\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/mysys_ssl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysys_ssl\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libmysql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysql\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libmysql/api_test.c.in">
+			<Option virtualFolder="CMake Files\libmysql\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libmysql/libmysql.ver.in">
+			<Option virtualFolder="CMake Files\libmysql\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libmysql/authentication_ldap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysql\authentication_ldap\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libbinlogevents\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/binlog_config.h.cmake">
+			<Option virtualFolder="CMake Files\libbinlogevents\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/configure.cmake">
+			<Option virtualFolder="CMake Files\libbinlogevents\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libbinlogevents\src\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogstandalone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libbinlogstandalone\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogstandalone/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libbinlogstandalone\src\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/archive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\archive\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/blackhole/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\blackhole\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/csv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\csv\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\example\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/federated/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\federated\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/heap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\heap\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/innobase/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\innobase\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/innobase/innodb.cmake">
+			<Option virtualFolder="CMake Files\storage\innobase\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/myisam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\myisam\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/myisammrg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\myisammrg\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/partition/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\partition\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/perfschema/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\perfschema\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/perfschema/unittest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\perfschema\unittest\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/audit_null/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\audit_null\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/auth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\auth\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/connection_control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\connection_control\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/daemon_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\daemon_example\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/fulltext/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\fulltext\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/fulltext/mecab.cmake">
+			<Option virtualFolder="CMake Files\plugin\fulltext\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/innodb_memcached/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\innodb_memcached\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/keyring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\keyring\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/password_validation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\password_validation\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/replication_observers_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\replication_observers_example\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/rewrite_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\rewrite_example\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/rewriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\rewriter\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/rewriter/install_rewriter.sql.in">
+			<Option virtualFolder="CMake Files\plugin\rewriter\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/rewriter/uninstall_rewriter.sql.in">
+			<Option virtualFolder="CMake Files\plugin\rewriter\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/semisync/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\semisync\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/test_service_sql_api/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\test_service_sql_api\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/test_services/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\test_services\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/udf_services/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\udf_services\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/plugin/version_token/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\version_token\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/group_replication/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rapid\plugin\group_replication\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/group_replication/configure.cmake">
+			<Option virtualFolder="CMake Files\rapid\plugin\group_replication\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/group_replication/mysql_gcs.h.cmake">
+			<Option virtualFolder="CMake Files\rapid\plugin\group_replication\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/group_replication/rpcgen.cmake">
+			<Option virtualFolder="CMake Files\rapid\plugin\group_replication\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/group_replication/xcom.h.cmake">
+			<Option virtualFolder="CMake Files\rapid\plugin\group_replication\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/keyring_udf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rapid\plugin\keyring_udf\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/x/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rapid\plugin\x\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/x/mysqlx_configure.cmake">
+			<Option virtualFolder="CMake Files\rapid\plugin\x\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/x/mysqlx_protobuf.cmake">
+			<Option virtualFolder="CMake Files\rapid\plugin\x\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/x/mysqlx_variables.cmake">
+			<Option virtualFolder="CMake Files\rapid\plugin\x\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/x/source_files.cmake">
+			<Option virtualFolder="CMake Files\rapid\plugin\x\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/x/src/mysqlx_ername.h.in">
+			<Option virtualFolder="CMake Files\rapid\plugin\x\src\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/x/src/mysqlx_error.h.in">
+			<Option virtualFolder="CMake Files\rapid\plugin\x\src\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/plugin/x/src/mysqlx_version.h.in">
+			<Option virtualFolder="CMake Files\rapid\plugin\x\src\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/unittest/gunit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rapid\unittest\gunit\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/unittest/gunit/group_replication/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rapid\unittest\gunit\group_replication\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/rapid/unittest/gunit/xplugin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rapid\unittest\gunit\xplugin\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/unittest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/unittest/gunit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/unittest/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\examples\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/unittest/mytap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\mytap\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/unittest/mytap/t/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\mytap\t\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/client/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\base\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/client/dump/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\dump\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libservices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libservices\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/man/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\man\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/testclients/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testclients\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libmysqld/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysqld\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libmysqld/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysqld\examples\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/scripts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/scripts/mysql_config.pl.in">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/scripts/mysql_config.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/scripts/mysqlclient.pc.in">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/scripts/mysqld_multi.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/scripts/mysqld_safe.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/scripts/mysqldumpslow.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/mysql-test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysql-test\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/mysql-test/lib/My/SafeProcess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysql-test\lib\My\SafeProcess\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/support-files/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/support-files/mysql-log-rotate.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/support-files/mysql.server.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/support-files/mysqld_multi.server.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-common/filter-provides.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-common/filter-requires.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-common/my.cnf.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-common/my_config.h">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-common/mysql.logrotate.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-common/mysql_config.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-oel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-oel/mysql.init">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-oel/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-fedora/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-fedora\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-fedora/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-fedora\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-sles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-sles/mysql.init">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-sles/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-docker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-docker\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-docker/my.cnf.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-docker\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/rpm-docker/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-docker\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/deb-in/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\deb-in\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/WiX/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\WiX\"/>
+		</Unit>
+		<Unit filename="/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/packaging/solaris/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\solaris\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

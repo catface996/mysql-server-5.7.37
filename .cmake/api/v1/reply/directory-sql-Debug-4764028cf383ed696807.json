@@ -1,0 +1,153 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"MYSQL_INSTALL_TARGETS",
+			"MYSQL_ADD_EXECUTABLE",
+			"MYSQL_ADD_PLUGIN"
+		],
+		"files" : 
+		[
+			"cmake/install_macros.cmake",
+			"cmake/mysql_add_executable.cmake",
+			"sql/CMakeLists.txt",
+			"cmake/plugin.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 489,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 645,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 660,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 278,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 670,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 278,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 11
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"sql/mysqld"
+			],
+			"targetId" : "mysqld::@e985624cb5cf1aba6ab1",
+			"targetIndex" : 104,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"sql/mysql_tzinfo_to_sql"
+			],
+			"targetId" : "mysql_tzinfo_to_sql::@e985624cb5cf1aba6ab1",
+			"targetIndex" : 97,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Test",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"sql/udf_example.so"
+			],
+			"targetId" : "udf_example::@e985624cb5cf1aba6ab1",
+			"targetIndex" : 194,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Server",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"sql/locking_service.so"
+			],
+			"targetId" : "locking_service::@e985624cb5cf1aba6ab1",
+			"targetIndex" : 73,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "sql",
+		"source" : "sql"
+	}
+}

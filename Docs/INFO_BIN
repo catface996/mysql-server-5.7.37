@@ -1,0 +1,116 @@
+===== Information about the build process: =====
+Build was run at 2022-05-25 19:06:59 on host 'catfacedeMacBook-Pro.local'
+
+Build was done on  Darwin-21.4.0 using x86_64
+Build was done using cmake 3.22.1 
+
+===== Compiler flags used (from the 'sql/' subdirectory): =====
+# compile C with /Library/Developer/CommandLineTools/usr/bin/cc
+# compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
+C_DEFINES = -DGTEST_USE_OWN_TR1_TUPLE=1 -DHAVE_CONFIG_H -DHAVE_REPLICATION -DHAVE_TLSv13 -DMYSQL_SERVER
+C_INCLUDES = -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/rapidjson/include -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/include -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/export -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/conn_handler -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/auth -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/regex -I/usr/local/opt/openssl/include -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/lz4/lz4-1.9.3 -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libedit/libedit-20210910-3.1/src/editline -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include/boost_1_59_0/patches -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/boost/boost_1_59_0
+C_FLAGS = -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -Wall -Wextra -Wformat-security -Wvla -Wwrite-strings -Wdeclaration-after-statement -DENABLED_DEBUG_SYNC -DSAFE_MUTEX -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -DHAVE_STATIC_OPENSSL -DHAVE_OPENSSL
+CXX_DEFINES = -DGTEST_USE_OWN_TR1_TUPLE=1 -DHAVE_CONFIG_H -DHAVE_REPLICATION -DHAVE_TLSv13 -DMYSQL_SERVER
+CXX_INCLUDES = -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/rapidjson/include -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/include -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/export -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/conn_handler -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/auth -I/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/regex -I/usr/local/opt/openssl/include -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/lz4/lz4-1.9.3 -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libedit/libedit-20210910-3.1/src/editline -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include/boost_1_59_0/patches -isystem /Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/boost/boost_1_59_0
+CXX_FLAGS = -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -Wall -Wextra -Wformat-security -Wvla -Woverloaded-virtual -Wno-unused-parameter -Wno-null-conversion -Wno-unused-private-field -DENABLED_DEBUG_SYNC -DSAFE_MUTEX -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -DHAVE_STATIC_OPENSSL -DHAVE_OPENSSL
+
+Pointer size: 8
+
+===== Feature flags used: =====
+-- Cache values
+BOOST_INCLUDE_DIR:PATH=/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/boost/boost_1_59_0
+BUNDLE_MECAB:BOOL=ON
+CMAKE_BACKWARDS_COMPATIBILITY:STRING=2.4
+CMAKE_BUILD_TYPE:STRING=Debug
+CMAKE_INSTALL_PREFIX:PATH=/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/build_out
+CMAKE_OSX_ARCHITECTURES:STRING=
+CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
+CMAKE_OSX_SYSROOT:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+COMMUNITY_BUILD:BOOL=ON
+CORESERVICES:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreServices.framework
+CRYPTO_LIBRARY:FILEPATH=/usr/local/opt/openssl/lib/libcrypto.a
+CTAGS_EXECUTABLE:FILEPATH=/usr/bin/ctags
+DOWNLOAD_BOOST:BOOL=1
+DOWNLOAD_BOOST_TIMEOUT:STRING=600
+ENABLED_PROFILING:BOOL=ON
+ENABLE_DOWNLOADS:BOOL=OFF
+ENABLE_DTRACE:BOOL=ON
+ENABLE_GCOV:BOOL=OFF
+ENABLE_GPROF:BOOL=OFF
+ENABLE_MEMCACHED_SASL:BOOL=OFF
+ENABLE_MEMCACHED_SASL_PWDB:BOOL=OFF
+EVENT__COVERAGE:BOOL=OFF
+EVENT__DISABLE_BENCHMARK:BOOL=OFF
+EVENT__DISABLE_CLOCK_GETTIME:BOOL=OFF
+EVENT__DISABLE_DEBUG_MODE:BOOL=OFF
+EVENT__DISABLE_GCC_WARNINGS:BOOL=OFF
+EVENT__DISABLE_MM_REPLACEMENT:BOOL=OFF
+EVENT__DISABLE_OPENSSL:BOOL=OFF
+EVENT__DISABLE_REGRESS:BOOL=OFF
+EVENT__DISABLE_SAMPLES:BOOL=OFF
+EVENT__DISABLE_TESTS:BOOL=OFF
+EVENT__DISABLE_THREAD_SUPPORT:BOOL=OFF
+EVENT__ENABLE_GCC_FUNCTION_SECTIONS:BOOL=OFF
+EVENT__ENABLE_GCC_HARDENING:BOOL=OFF
+EVENT__ENABLE_GCC_WARNINGS:BOOL=OFF
+EVENT__ENABLE_VERBOSE_DEBUG:BOOL=OFF
+EVENT__FORCE_KQUEUE_CHECK:BOOL=OFF
+EVENT__LIBRARY_TYPE:STRING=DEFAULT
+EVENT__MSVC_STATIC_RUNTIME:BOOL=OFF
+EXECUTABLE_OUTPUT_PATH:PATH=
+FEATURE_SET:STRING=community
+HAVE_LIBEVENT2:BOOL=1
+INSTALL_LAYOUT:STRING=STANDALONE
+INSTALL_PKGCONFIGDIR:PATH=
+LBER_SYSTEM_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib/liblber.tbd
+LDAP_SYSTEM_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/ldap.framework
+LIBRARY_OUTPUT_PATH:PATH=
+LOCAL_BOOST_DIR:FILEPATH=/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/boost/boost_1_59_0
+LOCAL_BOOST_ZIP:FILEPATH=LOCAL_BOOST_ZIP-NOTFOUND
+MUTEXTYPE:STRING=event
+MYSQL_DATADIR:PATH=/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/build_out/data
+MYSQL_KEYRINGDIR:PATH=/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/build_out/keyring
+MYSQL_MAINTAINER_MODE:BOOL=OFF
+OPENSSL_INCLUDE_DIR:PATH=/usr/local/opt/openssl/include
+OPENSSL_LIBRARY:FILEPATH=/usr/local/opt/openssl/lib/libssl.a
+OPENSSL_ROOT_DIR:PATH=/usr/local/opt/openssl
+OPTIMIZER_TRACE:BOOL=ON
+RPC_INCLUDE_DIRS:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+SASL_SYSTEM_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib/libsasl2.tbd
+TMPDIR:PATH=P_tmpdir
+WITH_ARCHIVE_STORAGE_ENGINE:BOOL=ON
+WITH_ASAN:BOOL=OFF
+WITH_AUTHENTICATION_LDAP:BOOL=OFF
+WITH_BLACKHOLE_STORAGE_ENGINE:BOOL=ON
+WITH_BOOST:PATH=/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/boost
+WITH_CLIENT_PROTOCOL_TRACING:BOOL=ON
+WITH_DEBUG:BOOL=1
+WITH_DEFAULT_COMPILER_OPTIONS:BOOL=ON
+WITH_DEFAULT_FEATURE_SET:BOOL=ON
+WITH_EDITLINE:STRING=bundled
+WITH_EMBEDDED_SERVER:BOOL=ON
+WITH_EMBEDDED_SHARED_LIBRARY:BOOL=OFF
+WITH_EXTRA_CHARSETS:STRING=all
+WITH_FEDERATED_STORAGE_ENGINE:BOOL=ON
+WITH_INNODB_EXTRA_DEBUG:BOOL=OFF
+WITH_INNODB_MEMCACHED:BOOL=OFF
+WITH_LDAP:STRING=system
+WITH_LIBEVENT:STRING=bundled
+WITH_LIBWRAP:BOOL=OFF
+WITH_LZ4:STRING=bundled
+WITH_MECAB:STRING=
+WITH_MSAN:BOOL=OFF
+WITH_NGRAM_PARSER:BOOL=ON
+WITH_NUMA:BOOL=OFF
+WITH_PARTITION_STORAGE_ENGINE:BOOL=ON
+WITH_RAPID:BOOL=ON
+WITH_SASL:STRING=system
+WITH_SSL:STRING=system
+WITH_TEST_TRACE_PLUGIN:BOOL=OFF
+WITH_UBSAN:BOOL=OFF
+WITH_UNIT_TESTS:BOOL=ON
+WITH_VALGRIND:BOOL=OFF
+WITH_ZLIB:STRING=bundled
+XPLUGIN_LOG_PROTOBUF:STRING=1
+
+===== EOF =====

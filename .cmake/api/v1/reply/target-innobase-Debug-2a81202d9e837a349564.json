@@ -1,0 +1,1477 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "archive_output_directory/libinnobase.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"MYSQL_ADD_PLUGIN",
+			"ADD_DEPENDENCIES",
+			"DTRACE_INSTRUMENT",
+			"TARGET_LINK_LIBRARIES",
+			"ADD_DEFINITIONS",
+			"INCLUDE",
+			"INCLUDE_DIRECTORIES",
+			"MYSQL_USE_BUNDLED_LZ4",
+			"MYSQL_CHECK_LZ4",
+			"MYSQL_USE_BUNDLED_EDITLINE",
+			"MYSQL_CHECK_EDITLINE"
+		],
+		"files" : 
+		[
+			"cmake/plugin.cmake",
+			"storage/innobase/CMakeLists.txt",
+			"cmake/dtrace.cmake",
+			"storage/innobase/innodb.cmake",
+			"CMakeLists.txt",
+			"cmake/lz4.cmake",
+			"cmake/readline.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 165,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 108,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 304,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 56,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 208,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 182,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 178,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 174,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 30,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 276,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 554,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 284,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 574,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 59,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 43,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 570,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 198,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 103,
+				"parent" : 25
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 562,
+				"parent" : 17
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -Wall -Wextra -Wformat-security -Wvla -Woverloaded-virtual -Wno-unused-parameter -Wno-null-conversion -Wno-unused-private-field -DENABLED_DEBUG_SYNC -DSAFE_MUTEX -g -DUNIV_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "COMPILER_HINTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_IB_ATOMIC_PTHREAD_T_GCC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_IB_GCC_ATOMIC_COMPARE_EXCHANGE=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "HAVE_IB_GCC_ATOMIC_THREAD_FENCE=1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "HAVE_IB_GCC_SYNC_SYNCHRONISE=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_LZ4=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "HAVE_NANOSLEEP=1"
+				},
+				{
+					"define" : "HAVE_TLSv13"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "MUTEX_EVENT"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/rapidjson/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/export"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/innobase/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/innobase/handler"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/auth"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/regex"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/usr/local/opt/openssl/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/lz4/lz4-1.9.3"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libedit/libedit-20210910-3.1/src/editline"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -Wall -Wextra -Wformat-security -Wvla -Woverloaded-virtual -Wno-unused-parameter -Wno-null-conversion -Wno-unused-private-field -DENABLED_DEBUG_SYNC -DSAFE_MUTEX -g -DUNIV_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+				},
+				{
+					"fragment" : "-Wno-cast-function-type"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "COMPILER_HINTS"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_IB_ATOMIC_PTHREAD_T_GCC=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_IB_GCC_ATOMIC_COMPARE_EXCHANGE=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "HAVE_IB_GCC_ATOMIC_THREAD_FENCE=1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "HAVE_IB_GCC_SYNC_SYNCHRONISE=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_LZ4=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "HAVE_NANOSLEEP=1"
+				},
+				{
+					"define" : "HAVE_TLSv13"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "MUTEX_EVENT"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/rapidjson/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/export"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/innobase/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/storage/innobase/handler"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/auth"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/regex"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/usr/local/opt/openssl/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/lz4/lz4-1.9.3"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libedit/libedit-20210910-3.1/src/editline"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				42
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "gen_dtrace_header::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "lz4_lib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "zlib::@036b525f80ea8433013a"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "GenError::@fd08edcdee322cedcc5e"
+		}
+	],
+	"id" : "innobase::@8123eafe19b66234b7de",
+	"name" : "innobase",
+	"nameOnDisk" : "libinnobase.a",
+	"paths" : 
+	{
+		"build" : "storage/innobase",
+		"source" : "storage/innobase"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/api/api0api.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/api/api0misc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/btr/btr0btr.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/btr/btr0cur.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/btr/btr0pcur.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/btr/btr0sea.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/btr/btr0bulk.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/buf/buf0block_hint.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/buf/buf0buddy.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/buf/buf0buf.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/buf/buf0dblwr.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/buf/buf0checksum.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/buf/buf0dump.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/buf/buf0flu.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/buf/buf0lru.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/buf/buf0rea.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/data/data0data.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/data/data0type.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/dict/dict0boot.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/dict/dict0crea.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/dict/dict0dict.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/dict/dict0load.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/dict/dict0mem.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/dict/dict0stats.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/dict/dict0stats_bg.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/eval/eval0eval.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/eval/eval0proc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fil/fil0fil.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fsp/fsp0fsp.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fsp/fsp0file.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fsp/fsp0space.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fsp/fsp0sysspace.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fut/fut0fut.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fut/fut0lst.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ha/ha0ha.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ha/ha0storage.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ha/hash0hash.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fts/fts0fts.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fts/fts0ast.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fts/fts0blex.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fts/fts0config.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fts/fts0opt.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "storage/innobase/fts/fts0pars.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fts/fts0que.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fts/fts0sql.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fts/fts0tlex.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/gis/gis0geo.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/gis/gis0rtree.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/gis/gis0sea.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/fts/fts0plugin.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/handler/ha_innodb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/handler/ha_innopart.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/handler/handler0alter.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/handler/i_s.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ibuf/ibuf0ibuf.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/lock/lock0iter.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/lock/lock0prdt.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/lock/lock0lock.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/lock/lock0wait.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/log/log0log.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/log/log0recv.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/mach/mach0data.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/mem/mem0mem.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/mtr/mtr0log.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/mtr/mtr0mtr.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/os/os0file.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/os/os0proc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/os/os0event.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/os/os0thread.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/page/page0cur.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/page/page0page.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/page/page0zip.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/pars/lexyy.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/pars/pars0grm.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/pars/pars0opt.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/pars/pars0pars.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/pars/pars0sym.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/que/que0que.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/read/read0read.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/rem/rem0cmp.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/rem/rem0rec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0ext.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0ftsort.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0import.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0ins.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0merge.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0mysql.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0log.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0purge.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0row.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0sel.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0trunc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0uins.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0umod.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0undo.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0upd.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0quiesce.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/row/row0vers.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/srv/srv0conc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/srv/srv0mon.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/srv/srv0srv.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/srv/srv0start.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/sync/sync0arr.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/sync/sync0rw.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/sync/sync0debug.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/sync/sync0sync.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/trx/trx0i_s.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/trx/trx0purge.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/trx/trx0rec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/trx/trx0roll.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/trx/trx0rseg.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/trx/trx0sys.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/trx/trx0trx.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/trx/trx0undo.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/usr/usr0sess.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0byte.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0crc32.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0dbg.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0list.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0mem.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0new.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0rbt.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0rnd.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0ut.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0vec.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "storage/innobase/ut/ut0wqueue.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

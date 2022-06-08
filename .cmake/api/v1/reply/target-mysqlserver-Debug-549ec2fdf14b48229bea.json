@@ -1,0 +1,380 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "archive_output_directory/libmysqld.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"MERGE_CONVENIENCE_LIBRARIES",
+			"INSTALL",
+			"MYSQL_INSTALL_TARGETS",
+			"ADD_DEPENDENCIES",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES",
+			"MYSQL_USE_BUNDLED_LZ4",
+			"MYSQL_CHECK_LZ4",
+			"MYSQL_USE_BUNDLED_EDITLINE",
+			"MYSQL_CHECK_EDITLINE"
+		],
+		"files" : 
+		[
+			"cmake/libutils.cmake",
+			"libmysqld/CMakeLists.txt",
+			"cmake/install_macros.cmake",
+			"CMakeLists.txt",
+			"cmake/lz4.cmake",
+			"cmake/readline.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 108,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 266,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 266,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 554,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 574,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 59,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 43,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 570,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 198,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 103,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 562,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 118,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -Wall -Wextra -Wformat-security -Wvla -Wwrite-strings -Wdeclaration-after-statement -DENABLED_DEBUG_SYNC -DSAFE_MUTEX -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -DHAVE_STATIC_OPENSSL -DHAVE_OPENSSL"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "EMBEDDED_LIBRARY"
+				},
+				{
+					"define" : "GTEST_USE_OWN_TR1_TUPLE=1"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "HAVE_TLSv13"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "MYSQL_SERVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/rapidjson/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/export"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libmysql"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libmysqld"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/auth"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/conn_handler"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/regex"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/usr/local/opt/openssl/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/sql/backup"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/lz4/lz4-1.9.3"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libedit/libedit-20210910-3.1/src/editline"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include/boost_1_59_0/patches"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/boost/boost_1_59_0"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "imported_crypto_location::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "imported_openssl_location::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "lz4_lib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "zlib::@036b525f80ea8433013a"
+		},
+		{
+			"id" : "dbug::@f597a2a676edbd8d9eb8"
+		},
+		{
+			"id" : "strings::@89d0016ae4e25e06fd39"
+		},
+		{
+			"id" : "vio::@c062e1da8e129617a875"
+		},
+		{
+			"id" : "regex::@66ffa60c01c71d228a19"
+		},
+		{
+			"id" : "mysys_ssl::@f5713d3e6a34ebed922e"
+		},
+		{
+			"id" : "archive_embedded::@2e44bbdae2afc01b0e4e"
+		},
+		{
+			"id" : "blackhole_embedded::@cbff55daf8a1ba3118e0"
+		},
+		{
+			"id" : "csv_embedded::@2d8bab0368e1620dc542"
+		},
+		{
+			"id" : "federated_embedded::@b132bc03dee175d33813"
+		},
+		{
+			"id" : "heap_embedded::@bb54266284e84a722211"
+		},
+		{
+			"id" : "innobase::@8123eafe19b66234b7de"
+		},
+		{
+			"id" : "myisam_embedded::@a51e6dff989a3e96f0ee"
+		},
+		{
+			"id" : "myisammrg_embedded::@efff744f1108af639037"
+		},
+		{
+			"id" : "partition_embedded::@fa3b76b85d6f06687f00"
+		},
+		{
+			"id" : "ngram_parser::@5cea746ce5de5d66e1e7"
+		},
+		{
+			"id" : "sql_embedded::@1fe367697efccb9292bd"
+		}
+	],
+	"id" : "mysqlserver::@1fe367697efccb9292bd",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/build_out"
+		}
+	},
+	"name" : "mysqlserver",
+	"nameOnDisk" : "libmysqld.a",
+	"paths" : 
+	{
+		"build" : "libmysqld",
+		"source" : "libmysqld"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "archive_output_directory/mysqlserver_depends.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "archive_output_directory/mysqlserver_depends.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,271 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"MYSQL_INSTALL_TARGETS",
+			"MYSQL_ADD_EXECUTABLE"
+		],
+		"files" : 
+		[
+			"cmake/install_macros.cmake",
+			"cmake/mysql_add_executable.cmake",
+			"extra/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 20
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 23
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extra/my_print_defaults"
+			],
+			"targetId" : "my_print_defaults::@fd08edcdee322cedcc5e",
+			"targetIndex" : 77,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extra/perror"
+			],
+			"targetId" : "perror::@fd08edcdee322cedcc5e",
+			"targetIndex" : 125,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extra/resolveip"
+			],
+			"targetId" : "resolveip::@fd08edcdee322cedcc5e",
+			"targetIndex" : 151,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extra/replace"
+			],
+			"targetId" : "replace::@fd08edcdee322cedcc5e",
+			"targetIndex" : 148,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extra/lz4_decompress"
+			],
+			"targetId" : "lz4_decompress::@fd08edcdee322cedcc5e",
+			"targetIndex" : 74,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extra/zlib_decompress"
+			],
+			"targetId" : "zlib_decompress::@fd08edcdee322cedcc5e",
+			"targetIndex" : 199,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extra/innochecksum"
+			],
+			"targetId" : "innochecksum::@fd08edcdee322cedcc5e",
+			"targetIndex" : 62,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"extra/resolve_stack_dump"
+			],
+			"targetId" : "resolve_stack_dump::@fd08edcdee322cedcc5e",
+			"targetIndex" : 150,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extra",
+		"source" : "extra"
+	}
+}

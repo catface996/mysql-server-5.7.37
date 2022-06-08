@@ -1,0 +1,43 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"plugin/innodb_memcached/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Server",
+			"destination" : "share",
+			"paths" : 
+			[
+				"plugin/innodb_memcached/innodb_memcache/scripts/innodb_memcached_config.sql"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "plugin/innodb_memcached",
+		"source" : "plugin/innodb_memcached"
+	}
+}

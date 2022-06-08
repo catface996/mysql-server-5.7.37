@@ -1,0 +1,223 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "strings/conf_to_src"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"TARGET_LINK_LIBRARIES",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES",
+			"MYSQL_USE_BUNDLED_LZ4",
+			"MYSQL_CHECK_LZ4",
+			"MYSQL_USE_BUNDLED_EDITLINE",
+			"MYSQL_CHECK_EDITLINE"
+		],
+		"files" : 
+		[
+			"strings/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/lz4.cmake",
+			"cmake/readline.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 554,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 574,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 59,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 43,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 570,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 198,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 562,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -Wall -Wextra -Wformat-security -Wvla -Wwrite-strings -Wdeclaration-after-statement -DENABLED_DEBUG_SYNC -DSAFE_MUTEX -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "DISABLE_MYSQL_THREAD_H"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"define" : "HAVE_TLSv13"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/rapidjson/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/export"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/lz4/lz4-1.9.3"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libedit/libedit-20210910-3.1/src/editline"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "strings::@89d0016ae4e25e06fd39"
+		}
+	],
+	"id" : "conf_to_src::@89d0016ae4e25e06fd39",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -Wall -Wextra -Wformat-security -Wvla -Wwrite-strings -Wdeclaration-after-statement -DENABLED_DEBUG_SYNC -DSAFE_MUTEX -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../archive_output_directory/libstrings.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "conf_to_src",
+	"nameOnDisk" : "conf_to_src",
+	"paths" : 
+	{
+		"build" : "strings",
+		"source" : "strings"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "strings/conf_to_src.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

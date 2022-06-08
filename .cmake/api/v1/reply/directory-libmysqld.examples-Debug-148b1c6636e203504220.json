@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"MYSQL_INSTALL_TARGETS",
+			"MYSQL_ADD_EXECUTABLE"
+		],
+		"files" : 
+		[
+			"cmake/install_macros.cmake",
+			"cmake/mysql_add_executable.cmake",
+			"libmysqld/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 8
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libmysqld/examples/mysql_embedded"
+			],
+			"targetId" : "mysql_embedded::@f83461f9dda75b777a4b",
+			"targetIndex" : 91,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libmysqld/examples/mysqltest_embedded"
+			],
+			"targetId" : "mysqltest_embedded::@f83461f9dda75b777a4b",
+			"targetIndex" : 114,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libmysqld/examples/mysql_client_test_embedded"
+			],
+			"targetId" : "mysql_client_test_embedded::@f83461f9dda75b777a4b",
+			"targetIndex" : 89,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libmysqld/examples",
+		"source" : "libmysqld/examples"
+	}
+}

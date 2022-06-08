@@ -1,0 +1,123 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/../libbinlogevents/export/binary_log_types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/mysql.h",
+				"include/mysql_com.h",
+				"include/my_command.h",
+				"include/mysql_time.h",
+				"include/my_list.h",
+				"include/my_alloc.h",
+				"include/typelib.h",
+				"include/mysql/plugin.h",
+				"include/mysql/plugin_audit.h",
+				"include/mysql/plugin_ftparser.h",
+				"include/mysql/plugin_validate_password.h",
+				"include/mysql/plugin_keyring.h",
+				"include/mysql/plugin_group_replication.h",
+				"include/my_dbug.h",
+				"include/m_string.h",
+				"include/my_sys.h",
+				"include/my_xml.h",
+				"include/mysql_embed.h",
+				"include/my_thread.h",
+				"include/my_thread_local.h",
+				"include/decimal.h",
+				"include/errmsg.h",
+				"include/my_global.h",
+				"include/my_getopt.h",
+				"include/sslopt-longopts.h",
+				"include/my_dir.h",
+				"include/sslopt-vars.h",
+				"include/sslopt-case.h",
+				"include/sql_common.h",
+				"include/keycache.h",
+				"include/m_ctype.h",
+				"include/my_compiler.h",
+				"include/mysql_com_server.h",
+				"include/my_byteorder.h",
+				"include/byte_order_generic.h",
+				"include/byte_order_generic_x86.h",
+				"include/little_endian.h",
+				"include/big_endian.h",
+				"include/thr_cond.h",
+				"include/thr_mutex.h",
+				"include/thr_rwlock.h",
+				"include/mysql_version.h",
+				"include/my_config.h",
+				"include/mysqld_ername.h",
+				"include/mysqld_error.h",
+				"include/sql_state.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Development",
+			"destination" : "include/mysql",
+			"paths" : 
+			[
+				{
+					"from" : "include/mysql",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include",
+		"source" : "include"
+	}
+}

@@ -1,0 +1,187 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"INCLUDE",
+			"MYSQL_INSTALL_TARGETS",
+			"MYSQL_ADD_PLUGIN",
+			"MYSQL_ADD_EXECUTABLE"
+		],
+		"files" : 
+		[
+			"rapid/plugin/x/mysqlx_configure.cmake",
+			"rapid/plugin/x/CMakeLists.txt",
+			"cmake/install_macros.cmake",
+			"cmake/plugin.cmake",
+			"cmake/mysql_add_executable.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 146,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 278,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 108,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 194,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 60,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 108,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 227,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 232,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Developement",
+			"destination" : "include",
+			"paths" : 
+			[
+				"rapid/plugin/x/generated/mysqlx_error.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Developement",
+			"destination" : "include",
+			"paths" : 
+			[
+				"rapid/plugin/x/generated/mysqlx_ername.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Developement",
+			"destination" : "include",
+			"paths" : 
+			[
+				"rapid/plugin/x/generated/mysqlx_version.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Server",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"rapid/plugin/x/mysqlx.so"
+			],
+			"targetId" : "mysqlx::@0fde6ce98670f9b53a1d",
+			"targetIndex" : 115,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"rapid/plugin/x/mysqlxtest"
+			],
+			"targetId" : "mysqlxtest::@0fde6ce98670f9b53a1d",
+			"targetIndex" : 116,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Test",
+			"destination" : "mysql-test/suite/x",
+			"paths" : 
+			[
+				"rapid/plugin/x/tests/mtr/plugin.defs"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Test",
+			"destination" : "mysql-test/suite/x",
+			"paths" : 
+			[
+				"rapid/plugin/x/tests/mtr/t",
+				"rapid/plugin/x/tests/mtr/r",
+				"rapid/plugin/x/tests/mtr/include"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "rapid/plugin/x",
+		"source" : "rapid/plugin/x"
+	}
+}

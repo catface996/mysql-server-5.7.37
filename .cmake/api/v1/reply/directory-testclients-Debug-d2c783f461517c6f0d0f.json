@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"testclients/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Test",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"testclients/mysql_client_test"
+			],
+			"targetId" : "mysql_client_test::@d8f2b1a4fb51917adc75",
+			"targetIndex" : 88,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "testclients",
+		"source" : "testclients"
+	}
+}

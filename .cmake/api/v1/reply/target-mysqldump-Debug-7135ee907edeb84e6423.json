@@ -1,0 +1,321 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "client/mysqldump"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"MYSQL_ADD_EXECUTABLE",
+			"INSTALL",
+			"MYSQL_INSTALL_TARGETS",
+			"TARGET_LINK_LIBRARIES",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES",
+			"MYSQL_USE_BUNDLED_LZ4",
+			"MYSQL_CHECK_LZ4",
+			"MYSQL_USE_BUNDLED_EDITLINE",
+			"MYSQL_CHECK_EDITLINE"
+		],
+		"files" : 
+		[
+			"cmake/mysql_add_executable.cmake",
+			"client/CMakeLists.txt",
+			"cmake/install_macros.cmake",
+			"libmysql/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/lz4.cmake",
+			"cmake/readline.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 108,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 270,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 554,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 574,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 59,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 43,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 570,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 198,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 103,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 562,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -Wall -Wextra -Wformat-security -Wvla -Wwrite-strings -Wdeclaration-after-statement -DENABLED_DEBUG_SYNC -DSAFE_MUTEX -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -DHAVE_STATIC_OPENSSL -DHAVE_OPENSSL"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "GTEST_USE_OWN_TR1_TUPLE=1"
+				},
+				{
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_DLOPEN"
+				},
+				{
+					"define" : "HAVE_TLSv13"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/rapidjson/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libbinlogevents/export"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/client"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/mysys_ssl"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/usr/local/opt/openssl/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/libmysql"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/regex"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/strings"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/lz4/lz4-1.9.3"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/extra/libedit/libedit-20210910-3.1/src/editline"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/zlib"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "mysqlclient::@804198ce8b9bd67f3a0d"
+		}
+	],
+	"id" : "mysqldump::@b0c487aac068df482bf0",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/catface/Documents/code/open-source/mysql/mysql-5.7.37/build_out"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -Wall -Wextra -Wformat-security -Wvla -Woverloaded-virtual -Wno-unused-parameter -Wno-null-conversion -Wno-unused-private-field -DENABLED_DEBUG_SYNC -DSAFE_MUTEX -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../archive_output_directory/libmysqlclient.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/opt/openssl/lib/libssl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/local/opt/openssl/lib/libcrypto.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mysqldump",
+	"nameOnDisk" : "mysqldump",
+	"paths" : 
+	{
+		"build" : "client",
+		"source" : "client"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "client/mysqldump.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "sql-common/my_user.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,107 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"support-files/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Server_Scripts",
+			"destination" : "support-files",
+			"paths" : 
+			[
+				"support-files/mysqld_multi.server"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Server_Scripts",
+			"destination" : "support-files",
+			"paths" : 
+			[
+				"support-files/mysql-log-rotate"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "SupportFiles",
+			"destination" : "support-files",
+			"paths" : 
+			[
+				"support-files/magic"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Development",
+			"destination" : "share/aclocal",
+			"paths" : 
+			[
+				"support-files/mysql.m4"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "SupportFiles",
+			"destination" : "support-files",
+			"paths" : 
+			[
+				"support-files/mysql.server"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "support-files",
+		"source" : "support-files"
+	}
+}

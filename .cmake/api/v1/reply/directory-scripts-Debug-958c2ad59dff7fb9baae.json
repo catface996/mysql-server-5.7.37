@@ -1,0 +1,154 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"INSTALL_SCRIPT"
+		],
+		"files" : 
+		[
+			"scripts/CMakeLists.txt",
+			"cmake/install_macros.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 455,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 478,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 478,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 478,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 478,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 9
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Server",
+			"destination" : "share",
+			"paths" : 
+			[
+				"scripts/mysql_system_tables.sql",
+				"scripts/mysql_system_tables_data.sql",
+				"scripts/fill_help_tables.sql",
+				"scripts/mysql_sys_schema.sql",
+				"scripts/mysql_test_data_timezone.sql",
+				"scripts/mysql_security_commands.sql"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Development",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"scripts/mysqlclient.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Development",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"scripts/mysql_config"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"scripts/mysqldumpslow"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"scripts/mysqld_multi"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Server",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"scripts/mysqld_safe"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "scripts",
+		"source" : "scripts"
+	}
+}

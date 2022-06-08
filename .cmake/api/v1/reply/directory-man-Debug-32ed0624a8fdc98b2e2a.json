@@ -1,0 +1,603 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"man/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/comp_err.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/innochecksum.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/lz4_decompress.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/my_print_defaults.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/myisam_ftdump.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/myisamchk.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/myisamlog.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/myisampack.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql.server.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql_config.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql_config_editor.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql_install_db.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql_plugin.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql_secure_installation.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql_ssl_rsa_setup.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql_tzinfo_to_sql.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysql_upgrade.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqladmin.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqlbinlog.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqlcheck.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqld_multi.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqld_safe.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqldump.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqldumpslow.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqlimport.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqlman.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqlpump.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqlshow.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/mysqlslap.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/perror.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/replace.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/resolve_stack_dump.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/resolveip.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "ManPages",
+			"destination" : "man/man1",
+			"paths" : 
+			[
+				"man/zlib_decompress.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "ManPages",
+			"destination" : "man/man8",
+			"paths" : 
+			[
+				"man/mysqld.8"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "man",
+		"source" : "man"
+	}
+}
